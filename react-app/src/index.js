@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
+import './assets/styles/site.css';
 
-const App = () => {
-    return (
-        <h2>Hello React!</h2>
-    )
-}
-ReactDOM.render(<App />, document.getElementById('root'));
+import { render } from 'react-dom';
+import App from './App';
+
+
+
+render(<App />, document.getElementById('root'));
