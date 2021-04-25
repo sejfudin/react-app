@@ -17,3 +17,8 @@
   text-align: center;
   margin: 50px auto;
 }
+
+.input-form {
+  width: 50%;
+  margin: 24px auto;
+}
