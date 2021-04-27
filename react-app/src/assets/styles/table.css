@@ -18,7 +18,7 @@ table tr:nth-child(2n + 1) {
 }
 
 table td {
-  padding: 2px 8px;
+  padding: 5px 28px;
   border-right: 1px solid #369;
 }
 

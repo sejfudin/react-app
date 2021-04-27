@@ -13,7 +13,9 @@ const Home = () => {
     return (
         <div className='container'>
             <img src={logo} alt='Logo' style={styles.image} />
-            <div style={styles.title}>Welcome to my first React App</div>
+            <div style={styles.title}>
+                <p>Welcome to </p><p>my first React App</p>
+                </div>
         </div>
     );
 }

@@ -26,13 +26,13 @@ const Students = () => {
 
                 </thead>
                 <tbody>
-                    {students.map(student => (
-                        <tr key={student._id}>
-                            <td>{student.firstName}</td>
-                            <td>{student.lastName}</td>
-                            <td>{student.yearOfBirth}</td>
-                            <td>{student.address}</td>
-                            <td><Link to={`/students/${student._id}`}>Edit</Link></td>
+                    {students.map(s => (
+                        <tr key={s._id}>
+                            <td>{s.firstName}</td>
+                            <td>{s.lastName}</td>
+                            <td>{s.yearOfBirth}</td>
+                            <td>{s.address}</td>
+                            <td><Link to={`/students/${s._id}`}>Edit</Link></td>
                         </tr>
 
                     ))}
